@@ -1,0 +1,23 @@
+ <div>
+        <img class="media-object" src="faces/<%= contact.name%>.jpg">
+      </div>
+      <div class="media-heading">
+        <h3 id = "se">
+          <%= contact.name %>
+          <small>
+            <a href="#" ><span class="glyphicon glyphicon-pencil"></span></a>
+            <a href="#" class="deleteContact">
+              <span class="glyphicon glyphicon-trash"></span>
+            </a>
+          </small>
+        </h3>
+      </div>
+      <div class="media-body">
+        <dl>
+          <dt>Phone Number:</dt>
+          <dd><%= contact.tel %></dd>
+          <dt>Email:</dt>
+          <dd><%= contact.email %></dd>
+        </dl>
+      </div>
+      <hr>
